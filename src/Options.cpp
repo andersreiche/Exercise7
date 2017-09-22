@@ -3,14 +3,14 @@
 #include <cstring>
 #include <stdio.h>
 #include <iostream>
+#include <stdexcept>
 using namespace std;
 
 Options::Options()
 {
-	/*
+
     argC = 0;
     argV = NULL;
-    */
     optstring = "";
     count = 1;
 }

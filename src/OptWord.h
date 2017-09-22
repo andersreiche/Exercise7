@@ -8,7 +8,7 @@ public:
     OptWord();
     OptWord(int argc, const char **argv);
     OptWord(const OptWord &rhs);
-    ~OptWord();
+    virtual ~OptWord();
 	int getopt(void);
 
 };

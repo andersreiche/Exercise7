@@ -37,5 +37,6 @@ int main(int argc, char** argv) {
 	if (args != 0) {
 				cout << "valid words on cmdline: " << WordArgs << endl;
 			}
+
 	return 0;
 }
