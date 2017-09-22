@@ -27,9 +27,6 @@ OptWord::~OptWord() {
 
 }
 
-void OptWord::setOptstring(string validopt) {
-	optstring = validopt;
-}
 
 int OptWord::getopt(void) {
 

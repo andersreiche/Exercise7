@@ -34,11 +34,6 @@ OptChars::~OptChars()
 
 }
 
-void OptChars::setOptstring(string validopt)
-{
-	optstring = validopt;
-}
-
 
 int OptChars::getopt(void)
 {

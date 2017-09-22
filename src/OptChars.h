@@ -8,8 +8,7 @@ public:
     OptChars();
     OptChars(int argc, const char **argv);
     OptChars(const OptChars &rhs);
-    ~OptChars();
-    void setOptstring(string validopt);
+    virtual ~OptChars();
 	int getopt(void);
 };
 

@@ -9,7 +9,6 @@ public:
     OptWord(int argc, const char **argv);
     OptWord(const OptWord &rhs);
     ~OptWord();
-    void setOptstring(string validopt);
 	int getopt(void);
 
 };

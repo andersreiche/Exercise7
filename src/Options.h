@@ -11,8 +11,8 @@ protected:
 	string optstring;
 public:
     Options();
-    ~Options();
-	virtual void setOptstring(string validopt) = 0;
+    virtual ~Options();
+	void setOptstring(string validopt);
 	virtual int getopt(void) = 0;
 	int numopt(void);
 };

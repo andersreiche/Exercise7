@@ -20,6 +20,11 @@ Options::~Options()
 
 }
 
+void Options::setOptstring(string validopt)
+{
+	optstring = validopt;
+}
+
 int Options::numopt(void)
 {
 	count = 0;
