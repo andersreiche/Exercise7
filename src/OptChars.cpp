@@ -24,6 +24,7 @@ OptChars::OptChars(const OptChars &rhs)
     count = rhs.count;
 }
 
+
 OptChars::OptChars()
 {
 }

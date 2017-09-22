@@ -18,10 +18,17 @@ int main(int argc, char** argv) {
 	OptChars *obj;
 	obj = new OptChars(argc, (const char**) argv);
 	opt = *obj;
+	delete obj;
+	obj = NULL;
 
 	OptWord *obj2;
 	obj2 = new OptWord(argc, (const char**) argv);
 	opt2 = *obj2;
+	delete obj2;
+	obj2 = NULL;
+
+	delete obj2;
+	obj2 = NULL;
 
 	opt.setOptstring(validOpt);
 	int args = opt.numopt();
@@ -37,6 +44,7 @@ int main(int argc, char** argv) {
 	if (args != 0) {
 				cout << "valid words on cmdline: " << WordArgs << endl;
 			}
+
 
 	return 0;
 }

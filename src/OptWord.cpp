@@ -12,6 +12,7 @@ OptWord::OptWord(int argc, const char **argv) {
 	count = 1;
 }
 
+
 OptWord::OptWord(const OptWord &rhs) {
 
 	argC = rhs.argC;
@@ -19,6 +20,7 @@ OptWord::OptWord(const OptWord &rhs) {
 	optstring = rhs.optstring;
 	count = rhs.count;
 }
+
 
 OptWord::OptWord() {
 }
